@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#search-bar {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#input-items {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#search-btn {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#show-items {}
