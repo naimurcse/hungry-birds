@@ -21,7 +21,7 @@ img {
     margin: 50px 0;
 }
 
-#input-items {
+#input-meal {
     font-size: 18px;
     padding: 10px 20px;
 }
@@ -32,4 +32,25 @@ img {
     padding: 10px 20px;
 }
 
-#show-items {}
+#show-meals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.meal {
+    margin: 15px;
+    border-radius: 6px;
+    background: #F8F7F5;
+}
+
+.meal img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.meal h2 {
+    padding: 20px 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
